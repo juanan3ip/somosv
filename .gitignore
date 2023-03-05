@@ -48,3 +48,4 @@ wp-includes/
 .idea
 .htaccess
 /wp-config.php
+.well-known/
