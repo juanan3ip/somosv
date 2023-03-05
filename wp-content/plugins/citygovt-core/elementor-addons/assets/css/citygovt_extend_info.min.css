@@ -1,0 +1,165 @@
+/*** 
+
+====================================================================
+	Extended Info Section
+====================================================================
+
+***/
+
+.ext-info-section {
+    position: relative;
+    padding: 0px 0px 105px;
+}
+
+.ext-info-section .pattern-layer {
+    position: absolute;
+    left: 0;
+    top: 220px;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.ext-info-section .awards-row {
+    position: relative;
+}
+
+.ext-info-section .awards-row .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.ext-info-section .awards-row .image-layer:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00aa55;
+    opacity: 0.93;
+}
+
+.ext-info-section .awards-row .auto-container {
+    max-width: 1400px;
+}
+
+.ext-info-section .awards-row .outer-container {
+    position: relative;
+    padding: 100px 100px 45px;
+    color: #ffffff;
+}
+
+.ext-info-section .awards-row .outer-container:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    bottom: 100px;
+    border-left: 1px solid rgba(255, 255, 255, 0.50);
+    z-index: 3;
+}
+
+.ext-info-section .awards-row .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.ext-info-section .awards-row .image-layer:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00aa55;
+    opacity: 0.93;
+}
+
+.ext-info-section .awards-row .row {
+    margin: 0px -50px;
+}
+
+.ext-info-section .awards-row .column {
+    position: relative;
+    padding: 0px 50px;
+}
+
+.ext-info-section .award-block {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.ext-info-section .award-block .inner {
+    position: relative;
+    display: block;
+    padding-left: 100px;
+}
+
+.ext-info-section .award-block .slash {
+    position: absolute;
+    left: 0;
+    top: -2px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Manjari', sans-serif;
+}
+
+.ext-info-section .award-block h4 {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.ext-info-section .award-block h4 a {
+    color: #ffffff;
+}
+
+.ext-info-section .content-row {
+    position: relative;
+    padding: 110px 0px 0px;
+}
+
+.ext-info-section .content-row .content {
+    position: relative;
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ext-info-section .content-row h4 {
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.ext-info-section .content-row h2 {
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 30px;
+}
+
+.ext-info-section .content-row .theme-btn {
+    min-width: 180px;
+}
+
+.ext-info-section .content-row .theme-btn .btn-title {
+    padding: 14px 25px 10px;
+}

@@ -1,0 +1,301 @@
+/*** 
+
+====================================================================
+	Services Section
+====================================================================
+
+***/
+
+.services-section {
+    position: relative;
+    padding: 110px 0px 80px;
+    background: #f1f1f1;
+}
+.services-section .sec-title .more-link a {
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Manjari', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #00aa55;
+    line-height: 20px;
+}
+.services-section .sec-title .more-link a span {
+    font-size: 12px;
+    margin-left: 8px;
+}
+.services-section .sec-title .more-link a:hover {
+    color: #222222;
+}
+.services-section .auto-container {
+    max-width: 1400px;
+}
+
+.services-section .image-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.services-section .image-left .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 390px;
+    bottom: 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.services-section .image-left .image-layer:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #00aa55;
+    opacity: 0.65;
+}
+
+.featured-service-block {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.featured-service-block .inner-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.featured-service-block .image-box {
+    position: relative;
+    display: block;
+}
+
+.featured-service-block .image-box img {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.featured-service-block .lower-box {
+    position: relative;
+    display: block;
+    padding: 35px 20px;
+    color: #ffffff;
+    background: #00aa55;
+}
+
+.featured-service-block .lower-box a {
+    color: #ffffff;
+}
+
+.featured-service-block h3 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 1.35em;
+}
+
+.featured-service-block .more-link {
+    position: relative;
+    display: block;
+}
+
+.featured-service-block .more-link a {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Manjari', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 20px;
+    border-bottom: 2px solid #ffffff;
+}
+
+.featured-service-block .more-link a:hover {
+    color: #222222;
+    border-color: #222222;
+}
+
+.services-section .column .col-inner {
+    position: relative;
+    margin-right: -320px;
+}
+
+.featured-block-two {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.featured-block-two .inner-box {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 46px 35px 38px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.07);
+}
+
+.featured-block-two .content-box {
+    position: relative;
+    display: block;
+    padding-left: 100px;
+    min-height: 162px;
+}
+
+.featured-block-two .content-box .icon-box {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 71px;
+    height: 162px;
+    color: #00aa55;
+    text-align: center;
+}
+
+.featured-block-two .content-box .icon-box:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 46px;
+    bottom: 46px;
+    width: 70px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    z-index: 1;
+}
+
+.featured-block-two .inner-box:hover .content-box .icon-box {
+    color: #ffffff;
+}
+
+.featured-block-two .inner-box:hover .content-box .icon-box:before {
+    top: 0;
+    bottom: 0;
+    background: #00aa55;
+}
+
+.featured-block-two .content-box .icon-box:after {
+    content: '';
+    position: absolute;
+    left: 35px;
+    top: 0px;
+    height: 100%;
+    border-left: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.featured-block-two .content-box .icon-box .icon {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 42px;
+    z-index: 3;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.featured-block-two .content-box .content {
+    position: relative;
+    display: block;
+}
+
+.featured-block-two .content-box h4 {
+    color: #222222;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin: 0 0 15px;
+}
+
+.featured-block-two .content-box h4 a {
+    color: #222222;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.featured-block-two .content-box h4 a:hover {
+    color: #00aa55;
+}
+
+.featured-block-two .content-box .text {
+    margin-bottom: 25px;
+}
+
+.featured-block-two .read-more {
+    position: relative;
+    display: block;
+}
+
+.featured-block-two .read-more a {
+    position: relative;
+    display: block;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Manjari', sans-serif;
+    text-transform: capitalize;
+    transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.featured-block-two .read-more a:before {
+    content: "\f1bd";
+    font-family: 'Flaticon';
+    position: absolute;
+    left: 0;
+    top: -3px;
+    width: 15px;
+    line-height: 24px;
+    color: #00aa55;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.featured-block-two .read-more a:hover,
+.featured-block-two .inner-box:hover .read-more a {
+    color: #00aa55;
+    padding-left: 20px;
+}
+
+.featured-block-two .read-more a:hover:before,
+.featured-block-two .inner-box:hover .read-more a:before {
+    opacity: 1;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}

@@ -1,0 +1,81 @@
+.guest-carousel .owl-nav {
+    display: none;
+}
+
+.guest-carousel .owl-dots {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.guest-carousel .owl-dots .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.guest-carousel .owl-dots .owl-dot span {
+    position: relative;
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: #aaaaaa;
+    outline: 2px solid rgba(0, 0, 0, 0);
+    outline-offset: 4px;
+}
+
+.guest-carousel .owl-dots .owl-dot.active span {
+    background: #00aa55;
+    outline-color: #00aa55;
+}
+
+.guest-block {
+    position: relative;
+}
+
+.guest-block .inner-box {
+    position: relative;
+    display: block;
+    padding: 30px 35px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.guest-block .inner-box .inner {
+    position: relative;
+    padding-left: 130px;
+    min-height: 100px;
+    padding-top: 15px;
+}
+
+.guest-block .inner-box .image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.guest-block .inner-box .image img {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.guest-block h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 10px;
+}
+
+.guest-block .designation {
+    font-size: 15px;
+    font-weight: 400;
+    color: #00aa55;
+}

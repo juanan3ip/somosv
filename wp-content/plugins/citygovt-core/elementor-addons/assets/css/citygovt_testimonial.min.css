@@ -1,0 +1,294 @@
+/*** 
+
+====================================================================
+	Testimonilas Section
+====================================================================
+
+***/
+
+.testimonials-section {
+    position: relative;
+    padding: 0px 0px;
+}
+
+.testimonials-section .carousel-box {
+    position: relative;
+    display: block;
+    margin-top: -110px;
+    padding: 90px 20px;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.10);
+    z-index: 1;
+}
+
+.testimonials-section .slide-item {
+    position: relative;
+    display: block;
+}
+
+.testimonials-section .slide-item .inner {
+    position: relative;
+    display: block;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+.testimonials-section .carousel-box .icon-box {
+    position: absolute;
+    left: 70px;
+    top: 50px;
+    display: block;
+    color: #f1f1f1;
+    font-size: 400px;
+    line-height: 1em;
+    font-family: 'Manjari', sans-serif;
+}
+
+.testimonials-section .slide-item .text {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 1.8em;
+    color: #757575;
+}
+
+.testimonials-section .slide-item .info {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 120px;
+    min-height: 100px;
+    margin: 0 0 35px;
+}
+
+.testimonials-section .slide-item .author-thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonials-section .slide-item .author-thumb img {
+    position: relative;
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonials-section .slide-item .info .name {
+    position: relative;
+    display: block;
+    font-size: 20px;
+    line-height: 1.5em;
+    color: #222222;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Manjari', sans-serif;
+}
+
+.testimonials-section .slide-item .info .designation {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #00aa55;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.testimonials-section .owl-theme .owl-nav {
+    display: none;
+}
+
+.testimonials-section .owl-nav {
+    display: none;
+}
+
+.testimonials-section .owl-dots {
+    position: relative;
+    display: block;
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.testimonials-section .owl-dots .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.testimonials-section .owl-dots .owl-dot span {
+    position: relative;
+    display: block;
+    width: 3px;
+    height: 3px;
+    background: #aaaaaa;
+    outline: 2px solid rgba(0, 0, 0, 0);
+    outline-offset: 4px;
+}
+
+.testimonials-section .owl-dots .owl-dot.active span {
+    background: #00aa55;
+    outline-color: #00aa55;
+}
+
+
+/*** 
+
+====================================================================
+	Reviews Section
+====================================================================
+
+***/
+
+.reviews-section {
+    position: relative;
+    padding: 110px 0px 110px;
+    background: #f1f1f1;
+}
+
+.reviews-section .pattern-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.reviews-section .review-block {
+    position: relative;
+}
+
+.reviews-section .review-block .inner {
+    position: relative;
+    display: block;
+    padding-left: 100px;
+    overflow: hidden;
+}
+
+.reviews-section .review-block .author-thumb {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.reviews-section .review-block .author-thumb:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    margin-bottom: 10px;
+    height: 100px;
+    border-left: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.reviews-section .review-block .author-thumb:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    margin-top: 12px;
+    height: 100px;
+    border-left: 1px solid rgba(0, 0, 0, 0.20);
+}
+
+.reviews-section .review-block:hover .author-thumb:before,
+.reviews-section .review-block:hover .author-thumb:after {
+    border-color: #00aa55;
+    transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+}
+
+.reviews-section .review-block .author-thumb img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.reviews-section .review-block .text {
+    line-height: 1.7em;
+}
+
+.reviews-section .review-block .info {
+    position: relative;
+    margin-top: 25px;
+}
+
+.reviews-section .review-block .info .name {
+    position: relative;
+    display: block;
+    font-family: 'Manjari', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #222222;
+}
+
+.reviews-section .review-block .info .designation {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #00aa55;
+}
+
+.reviews-section .review-block .icon-box {
+    position: relative;
+    color: #00aa55;
+    font-size: 48px;
+    line-height: 1em;
+    margin-bottom: 20px;
+}
+
+.reviews-carousel .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -120px;
+}
+
+.reviews-carousel .owl-nav button.owl-next,
+.reviews-carousel .owl-nav button.owl-prev {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+    line-height: 58px;
+    color: #cccccc;
+    font-size: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    text-align: center;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.reviews-carousel .owl-nav .owl-next:hover,
+.reviews-carousel .owl-nav .owl-prev:hover {
+    border-color: #00aa55;
+    color: #00aa55;
+}
+
+.reviews-carousel .owl-dots {
+    display: none;
+}

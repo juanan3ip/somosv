@@ -1,0 +1,193 @@
+/*** 
+
+====================================================================
+	Coming Soon
+====================================================================
+
+***/
+
+.comming-soon {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.comming-soon .outer-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.comming-soon .content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    vertical-align: middle;
+}
+
+.comming-soon .content-inner {
+    position: relative;
+    width: 100%;
+    padding: 50px 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.comming-soon:before {
+    position: absolute;
+    content: '';
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: #000000;
+    opacity: 0.60;
+}
+
+.comming-soon .logo-box {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.comming-soon .logo-box img {
+    height: 42px;
+}
+
+.comming-soon h1 {
+    position: relative;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.comming-soon .social-links {
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.comming-soon .social-links li {
+    position: relative;
+    display: inline-block;
+    margin: 0px 7px;
+}
+
+.comming-soon .social-links li a {
+    position: relative;
+    display: block;
+    color: #757575;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: center;
+    background: #ffffff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.comming-soon .social-links li a:hover,
+.comming-soon .social-links li a:hover {
+    color: #ffffff;
+    background: #00aa55;
+    border-color: #00aa55;
+}
+
+.comming-soon .newsletter-form {
+    position: relative;
+    display: block;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.comming-soon .newsletter-form .instruction {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    line-height: 1.5em;
+    padding-top: 25px;
+}
+
+.comming-soon .newsletter-form .instruction span {
+    color: #00aa55;
+}
+
+.comming-soon .newsletter-form form {
+    position: relative;
+}
+
+.comming-soon .newsletter-form .form-group {
+    position: relative;
+    margin: 0 0;
+    padding-right: 200px;
+}
+
+.comming-soon .newsletter-form .form-group input[type="text"],
+.comming-soon .newsletter-form .form-group input[type="tel"],
+.comming-soon .newsletter-form .form-group input[type="email"],
+.comming-soon .newsletter-form .form-group textarea {
+    position: relative;
+    width: 100%;
+    line-height: 30px;
+    padding: 12px 20px;
+    height: 54px;
+    display: block;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.40);
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.comming-soon .newsletter-form .form-group input::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.comming-soon .newsletter-form .theme-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 180px;
+    line-height: 38px;
+    padding: 12px 20px;
+    text-align: center;
+    background: #00aa55;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Manjari', sans-serif;
+    text-align: center;
+    height: 54px;
+    display: inline-block;
+}
+.comming-soon .newsletter-form .theme-btn:hover {
+    background: #ffffff;
+    color: #00aa55;
+}

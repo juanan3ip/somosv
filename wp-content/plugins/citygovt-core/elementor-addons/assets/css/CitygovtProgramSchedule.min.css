@@ -1,0 +1,299 @@
+
+.accordion-box {
+    position: relative;
+}
+
+.accordion-box .block {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.accordion-box .block:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-box .block .acc-btn {
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 19px 50px 11px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    color: #222222;
+    background-color: #ffffff;
+    font-family: 'Manjari', sans-serif;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active {
+    color: #00aa55;
+    border-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.accordion-box .block:before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    bottom: 20px;
+    border-left: 2px solid #00aa55;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.accordion-box .block.active-block:before {
+    bottom: 5px;
+}
+
+.accordion-box .block .icon {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #061138;
+    height: 30px;
+    line-height: 30px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active .icon:before {
+    content: "\f123";
+    color: #00aa55;
+}
+
+.accordion-box .block.active-block {
+    display: block;
+}
+
+.accordion-box .block .acc-content {
+    position: relative;
+    padding-left: 50px;
+    display: none;
+}
+
+.accordion-box .block .content {
+    position: relative;
+    padding: 28px 0px 0px;
+}
+
+.accordion-box .block.current .acc-content {
+    display: block;
+}
+
+.accordion-box .block .content .text {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.event-details .more-info-box {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.event-details .more-info-box .inner-box {
+    position: relative;
+    display: block;
+    min-height: 350px;
+    padding-left: 200px;
+}
+
+.event-details .more-info-box .timings {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 170px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.event-details .more-info-box .timings .curve {
+    position: absolute;
+    top: 0px;
+    height: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.event-details .more-info-box .timings .curve:before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 10px;
+    width: 60%;
+    height: 20px;
+    background: #00aa55;
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+
+.event-details .more-info-box .timings .curve:after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    top: 10px;
+    width: 60%;
+    height: 20px;
+    background: #00aa55;
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+.event-details .more-info-box .timings .inner {
+    position: relative;
+    display: block;
+    padding: 0px 20px;
+    text-align: center;
+    color: #ffffff;
+    background: #00aa55;
+}
+
+.event-details .more-info-box .timings ul li {
+    position: relative;
+    display: block;
+    padding: 40px 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.30);
+}
+
+.event-details .more-info-box .toggle-box {
+    position: relative;
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+.toggle-box .accordion {
+    position: relative;
+    padding: 33px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    background: none;
+    box-shadow: none;
+}
+
+.toggle-box .accordion .acc-btn {
+    position: relative;
+    background: none;
+    border: none;
+    box-shadow: none !important;
+    font-size: 20px;
+    padding: 0 50px 0 0;
+}
+
+.toggle-box .accordion .acc-btn .icon {
+    top: 0px;
+}
+
+.toggle-box .accordion-box .block:before {
+    display: none;
+}
+
+.toggle-box .accordion-box .block .acc-content {
+    padding-left: 0;
+}
+
+.toggle-box .accordion-box .block .content {
+    padding-top: 0;
+}
+.faqs-section {
+    position: relative;
+    padding: 110px 0px 110px;
+    background: #ffffff;
+}
+
+.faqs-section .sec-title {
+    margin-bottom: 50px;
+}
+
+.faqs-section .tab-col {
+    position: relative;
+}
+
+.faqs-section .tab-col .inner {
+    position: relative;
+    display: block;
+}
+
+.tabs-box {
+    position: relative;
+}
+
+.tabs-box .tab-buttons {
+    position: relative;
+}
+
+.tabs-box .tab-buttons .tab-btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.tabs-box .tabs-content {
+    position: relative;
+}
+
+.tabs-box .tabs-content .tab {
+    position: relative;
+    display: none;
+}
+
+.tabs-box .tabs-content .active-tab {
+    display: block;
+}
+
+.faq-tabs {
+    position: relative;
+}
+
+.faq-tabs .tab-buttons {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-tabs .tab-buttons .tab-btn {
+    position: relative;
+    display: block;
+    padding: 30px 10px 25px;
+    text-align: center;
+    background: #f1f1f1;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    font-family: 'Manjari', sans-serif;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.faq-tabs .tab-buttons .tab-btn.active-btn {
+    background: none;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.faq-tabs .tab-buttons .tab-btn .icon {
+    position: relative;
+    display: block;
+    font-size: 42px;
+    line-height: 1em;
+    color: #00aa55;
+    font-weight: 400;
+    margin-bottom: 10px;
+}

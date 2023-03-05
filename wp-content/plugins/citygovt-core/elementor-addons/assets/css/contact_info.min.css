@@ -1,0 +1,114 @@
+/*** 
+
+====================================================================
+	News Section
+====================================================================
+
+***/
+
+.contact-info-section {
+    position: relative;
+    padding: 110px 0px 190px;
+    background: #ffffff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact-info-section .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.contact-info-section .image-layer:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(241, 241, 241, 0.93);
+}
+
+.contact-info-section .sec-title {
+    margin-bottom: 50px;
+}
+
+.contact-info-section .info-outer {
+    position: relative;
+}
+
+.contact-info-section .info-box {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 170px;
+    margin: 0px 14px 30px;
+    font-family: 'Manjari', sans-serif;
+}
+
+.contact-info-section .info-box .inner {
+    position: relative;
+    display: block;
+    padding: 40px 20px 35px;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+}
+
+.contact-info-section .info-box .inner:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-bottom: 2px solid #00aa55;
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.contact-info-section .info-box:hover .inner:before {
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.contact-info-section .info-box .icon {
+    position: relative;
+    display: block;
+    line-height: 1em;
+    font-size: 42px;
+    color: #00aa55;
+    margin: 0 0 20px;
+}
+
+.contact-info-section .info-box strong {
+    position: relative;
+    display: block;
+    line-height: 1.4em;
+    font-size: 18px;
+    color: #222222;
+    margin: 0 0 7px;
+}
+
+.contact-info-section .info-box .info,
+.contact-info-section .info-box .info a {
+    color: #757575;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.contact-info-section .info-box .info a:hover {
+    color: #00aa55;
+    text-decoration: underline;
+}

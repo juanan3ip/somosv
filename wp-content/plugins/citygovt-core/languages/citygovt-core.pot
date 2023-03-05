@@ -1,0 +1,3047 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Citygovt Core\n"
+"POT-Creation-Date: 2020-06-24 11:35+0600\n"
+"PO-Revision-Date: 2020-06-24 11:22+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_AT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: breadcrumb-navxt/breadcrumb-navxt.php:8
+#: breadcrumb-navxt/class.bcn_admin.php:26
+#: breadcrumb-navxt/class.bcn_rest_controller.php:26
+#, php-format
+msgid "Your PHP version is too old, please upgrade to a newer version. Your version is %1$s, Breadcrumb NavXT requires %2$s"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:65
+msgid "Breadcrumb NavXT Settings"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:325
+msgid "Tips for the settings are located below select options."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:326
+msgid "Resources"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:327
+#, php-format
+msgid "%sTutorials and How Tos%s: There are several guides, tutorials, and how tos available on the author's website."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:327
+msgid "Go to the Breadcrumb NavXT tag archive."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:328
+#, php-format
+msgid "%sOnline Documentation%s: Check out the documentation for more indepth technical information."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:328
+msgid "Go to the Breadcrumb NavXT online documentation"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:329
+#, php-format
+msgid "%sReport a Bug%s: If you think you have found a bug, please include your WordPress version and details on how to reproduce the bug."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:329
+msgid "Go to the Breadcrumb NavXT support post for your version."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:330
+msgid "Giving Back"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:331
+#, php-format
+msgid "%sDonate%s: Love Breadcrumb NavXT and want to help development? Consider buying the author a beer."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:331
+msgid "Go to PayPal to give a donation to Breadcrumb NavXT."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:332
+#, php-format
+msgid "%sTranslate%s: Is your language not available? Visit the Breadcrumb NavXT translation project on WordPress.org to start translating."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:332
+msgid "Go to the Breadcrumb NavXT translation project."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:337
+#: breadcrumb-navxt/class.bcn_admin.php:494
+#: breadcrumb-navxt/class.bcn_admin.php:495
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:29
+#: elementor-addons/includes/widgets/citygovt-department.php:31
+#: elementor-addons/includes/widgets/citygovt-service-two.php:31
+msgid "General"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:340
+msgid "For the settings on this page to take effect, you must either use the included Breadcrumb NavXT widget, or place either of the code sections below into your theme."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:341
+msgid "Breadcrumb trail with separators"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:347
+msgid "Breadcrumb trail in list form"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:356
+msgid "Quick Start"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:359
+msgid "Using the code from the Quick Start section above, the following CSS can be used as base for styling your breadcrumb trail."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:371
+msgid "Styling"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:377
+msgid "Import/Export/Reset"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:401
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:805
+msgid "Import"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:402
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:806
+msgid "Export"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:403
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:807
+msgid "Reset"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:421
+msgid "Warning: Your network settings will override any settings set in this page."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:425
+#: breadcrumb-navxt/class.bcn_admin.php:429
+msgid "Warning: Your network settings may override any settings set in this page."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:434
+#: breadcrumb-navxt/class.bcn_network_admin.php:163
+msgid "Warning: No BCN_SETTINGS_* define statement found, defaulting to BCN_SETTINGS_USE_LOCAL."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:446
+#, php-format
+msgid "Warning: Your are using a deprecated setting \"Title Length\" (see Miscellaneous &gt; Deprecated), please %1$suse CSS instead%2$s."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:446
+#: breadcrumb-navxt/class.bcn_admin.php:764
+msgid "Go to the guide on trimming breadcrumb title lengths with CSS"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:494
+msgid "A collection of settings most likely to be modified are located under this tab."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:498
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:498
+msgid "Placed in between each breadcrumb."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:502
+msgid "Current Item"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:505
+msgid "Link Current Item"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:505
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:73
+msgid "Yes"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:506
+msgid "Paged Breadcrumb"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:506
+msgid "Place the page number breadcrumb in the trail."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:506
+msgid "Indicates that the user is on a page other than the first of a paginated archive or post."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:507
+msgid "Paged Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:507
+msgid "The template for paged breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:511
+#: breadcrumb-navxt/class.bcn_admin.php:514
+msgid "Home Breadcrumb"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:514
+msgid "Place the home breadcrumb in the trail."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:515
+msgid "Home Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:515
+msgid "The template for the home breadcrumb."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:516
+msgid "Home Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:516
+msgid "The template for the home breadcrumb, used when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:520
+#: breadcrumb-navxt/class.bcn_admin.php:523
+msgid "Blog Breadcrumb"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:523
+msgid "Place the blog breadcrumb in the trail."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:527
+msgid "Mainsite Breadcrumb"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:530
+msgid "Main Site Breadcrumb"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:530
+msgid "Place the main site home breadcrumb in the trail in an multisite setup."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:531
+msgid "Main Site Home Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:531
+msgid "The template for the main site home breadcrumb, used only in multisite environments."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:532
+msgid "Main Site Home Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:532
+msgid "The template for the main site home breadcrumb, used only in multisite environments and when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:539
+msgid "The settings for all post types (Posts, Pages, and Custom Post Types) are located under this tab."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:539
+msgid "Post Types"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:540
+msgid "Posts"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:543
+msgid "Post Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:543
+msgid "The template for post breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:544
+msgid "Post Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:544
+msgid "The template for post breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:545
+msgid "Post Hierarchy Display"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:545
+msgid "Show the hierarchy (specified below) leading to a post in the breadcrumb trail."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:546
+msgid "Post Hierarchy Use Parent First"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:546
+msgid "Use the parent of the post as the primary hierarchy, falling back to the hierarchy selected below when the parent hierarchy is exhausted."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:547
+msgid "Post Hierarchy Referer Influence"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:547
+#: breadcrumb-navxt/class.bcn_admin.php:629
+msgid "Allow the referring page to influence the taxonomy selected for the hierarchy."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:551
+msgid "Post Hierarchy"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:555
+#: breadcrumb-navxt/class.bcn_admin.php:678
+msgid "Categories"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:556
+#: breadcrumb-navxt/class.bcn_admin.php:639
+msgid "Dates"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:557
+#: breadcrumb-navxt/class.bcn_admin.php:685
+msgid "Tags"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:559
+#: breadcrumb-navxt/class.bcn_admin.php:638
+msgid "Post Parent"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:575
+#: breadcrumb-navxt/class.bcn_admin.php:663
+msgid "The hierarchy which the breadcrumb trail will show. Note that the \"Post Parent\" option may require an additional plugin to behave as expected since this is a non-hierarchical post type."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:579
+msgid "Pages"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:582
+msgid "Page Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:582
+msgid "The template for page breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:583
+msgid "Page Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:583
+msgid "The template for page breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:589
+msgid "Attachments"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:592
+msgid "Attachment Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:592
+msgid "The template for attachment breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:593
+msgid "Attachment Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:593
+msgid "The template for attachment breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:613
+#: breadcrumb-navxt/class.bcn_admin.php:716
+#, php-format
+msgid "%s Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:613
+#: breadcrumb-navxt/class.bcn_admin.php:716
+#, php-format
+msgid "The template for %s breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:614
+#: breadcrumb-navxt/class.bcn_admin.php:717
+#, php-format
+msgid "%s Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:614
+#: breadcrumb-navxt/class.bcn_admin.php:717
+#, php-format
+msgid "The template for %s breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:619
+#, php-format
+msgid "%s Root Page"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:622
+#: breadcrumb-navxt/class.bcn_admin.php:740
+#: widgets/citygovt-service-sidebar-menu.php:140
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:626
+#, php-format
+msgid "%s Archive Display"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:626
+#, php-format
+msgid "Show the breadcrumb for the %s post type archives in the breadcrumb trail."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:627
+#, php-format
+msgid "%s Hierarchy Display"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:627
+#, php-format
+msgid "Show the hierarchy (specified below) leading to a %s in the breadcrumb trail."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:628
+#, php-format
+msgid "%s Hierarchy Use Parent First"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:628
+#, php-format
+msgid "Use the parent of the %s as the primary hierarchy, falling back to the hierarchy selected below when the parent hierarchy is exhausted."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:629
+#, php-format
+msgid "%s Hierarchy Referer Influence"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:633
+#, php-format
+msgid "%s Hierarchy"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:659
+msgid "The hierarchy which the breadcrumb trail will show."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:677
+msgid "The settings for all taxonomies (including Categories, Tags, and custom taxonomies) are located under this tab."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:677
+msgid "Taxonomies"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:681
+msgid "Category Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:681
+msgid "The template for category breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:682
+msgid "Category Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:682
+msgid "The template for category breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:688
+msgid "Tag Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:688
+msgid "The template for tag breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:689
+msgid "Tag Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:689
+msgid "The template for tag breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:692
+msgid "Post Formats"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:695
+msgid "Post Format Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:695
+msgid "The template for post format breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:696
+msgid "Post Format Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:696
+msgid "The template for post_format breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:726
+msgid "The settings for author and date archives, searches, and 404 pages are located under this tab."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:726
+#: breadcrumb-navxt/class.bcn_admin.php:744
+msgid "Miscellaneous"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:727
+msgid "Author Archives"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:730
+msgid "Author Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:730
+msgid "The template for author breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:731
+msgid "Author Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:731
+msgid "The template for author breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:732
+msgid "Author Display Format"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:732
+msgid "display_name uses the name specified in \"Display name publicly as\" under the user profile the others correspond to options in the user profile."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:737
+msgid "Author Root Page"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:747
+msgid "Date Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:747
+msgid "The template for date breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:748
+msgid "Date Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:748
+msgid "The template for date breadcrumbs, used only when the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:749
+msgid "Search Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:749
+msgid "The anchor template for search breadcrumbs, used only when the search results span several pages."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:750
+msgid "Search Template (Unlinked)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:750
+msgid "The anchor template for search breadcrumbs, used only when the search results span several pages and the breadcrumb is not linked."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:751
+msgid "404 Title"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:752
+msgid "404 Template"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:752
+msgid "The template for 404 breadcrumbs."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:755
+msgid "Deprecated"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:759
+msgid "Title Length"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:764
+#, php-format
+msgid "Limit the length of the breadcrumb title. (Deprecated, %suse CSS instead%s)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:769
+msgid "Max Title Length: "
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_admin.php:781
+msgid "Save Changes"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb.php:91
+msgid "Go to %title%."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb.php:239
+msgid "bcn_breadcrumb::type must be an array"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:78
+msgid "Page %htitle%"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:112
+msgid "404"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:115
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:117
+#, php-format
+msgid "Search results for &#39;%1$s&#39;"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:115
+msgid "Go to the first page of search results for %title%."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:120
+msgid "Go to the %title% tag archives."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:125
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:143
+msgid "Go to the %title% archives."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:130
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:132
+#, php-format
+msgid "Articles by: %1$s"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:130
+msgid "Go to the first page of posts by %title%."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:139
+msgid "Go to the %title% category archives."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:462
+msgid "$post global is not of type WP_Post"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:540
+msgid "d"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:567
+msgid "F"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_breadcrumb_trail.php:594
+msgid "Y"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_network_admin.php:44
+msgid "Breadcrumb NavXT Network Settings"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_network_admin.php:146
+#: breadcrumb-navxt/class.bcn_network_admin.php:164
+msgid "Warning: Individual site settings will override any settings set in this page."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_network_admin.php:154
+#: breadcrumb-navxt/class.bcn_network_admin.php:158
+msgid "Warning: Individual site settings may override any settings set in this page."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_rest_controller.php:77
+msgid "The ID of the post (any type) to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_rest_controller.php:91
+msgid "The ID of the term to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_rest_controller.php:97
+msgid "The taxonomy of the term to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_rest_controller.php:110
+msgid "The ID of the author to retrieve the breadcrumb trail for."
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:31
+msgid "Adds a breadcrumb trail to your sidebar"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:108
+#: widgets/citygovt-service-sidebar-menu.php:134 widgets/latest-posts.php:33
+msgid "Title:"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:112
+msgid "Text to show before the trail:"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:116
+msgid "Output trail as:"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:118
+msgid "List"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:119
+msgid "Schema.org BreadcrumbList (RDFa)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:120
+msgid "Schema.org BreadcrumbList (microdata)"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:121
+msgid "Plain"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:127
+msgid "Link the breadcrumbs"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:129
+msgid "Reverse the order of the trail"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:131
+msgid "Hide the trail on the front page"
+msgstr ""
+
+#: breadcrumb-navxt/class.bcn_widget.php:133
+msgid "Ignore breadcrumb cache"
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:121
+msgid "Insufficient privileges to proceed."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:228
+msgid "Settings"
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:298
+msgid "Your settings are for an older version of this plugin and need to be migrated."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:299
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:308
+msgid "Migrate the settings now."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:299
+msgid "Migrate now."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:307
+msgid "Your settings are for a newer version of this plugin."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:308
+msgid "Attempt back migration now."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:314
+msgid "Your plugin install is incomplete."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:315
+msgid "Load default settings now."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:315
+msgid "Complete now."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:321
+msgid "One or more of your plugin settings are invalid."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:322
+msgid "Attempt to fix settings now."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:322
+msgid "Fix now."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:504
+msgid "Settings successfully saved."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:505
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:513
+msgid "Undo the options save."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:505
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:513
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:614
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:637
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:655
+msgid "Undo"
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:507
+msgid "Settings did not change, nothing to save."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:509
+msgid "Settings were not saved."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:512
+msgid "Some settings were not saved."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:514
+msgid "The following settings were not saved:"
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:518
+#, php-format
+msgid "Please include this message in your %sbug report%s."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:518
+#, php-format
+msgid "Go to the %s support forum."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:613
+msgid "Settings successfully imported from the uploaded file."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:614
+msgid "Undo the options import."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:617
+msgid "Importing settings from file failed."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:636
+msgid "Settings successfully reset to the default values."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:637
+msgid "Undo the options reset."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:654
+msgid "Settings successfully undid the last operation."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:655
+msgid "Undo the last undo operation."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:688
+msgid "Settings successfully migrated."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:693
+msgid "Default settings successfully installed."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:731
+msgid "adminKit::message is deprecated, use new adminkit_messages instead."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:797
+msgid "Import settings from a XML file, export the current settings to a XML file, or reset to the default settings."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:800
+msgid "Settings File"
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit.php:803
+msgid "Select a XML settings file to upload and import settings from."
+msgstr ""
+
+#: breadcrumb-navxt/includes/class.mtekk_adminkit_message.php:43
+msgid "$uid must not be null if message is dismissible"
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:123
+msgid "City Govt"
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:137
+msgid "City Govt Footer"
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:197
+msgid "Your installed PHP Version is: "
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:198
+msgid "The <strong>Team Members for Elementor</strong> plugin requires PHP version <strong>"
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:198
+msgid "</strong> or greater."
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:217
+msgid "<h1>An Error Occured</h1>"
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:218
+msgid "<h2>Your installed PHP Version is: "
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:219
+msgid "You should update your PHP software or contact your host regarding this matter.</p>"
+msgstr ""
+
+#: elementor-addons/city_govt_elementor.php:220
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:20
+#: elementor-addons/includes/city_govt_core_functions.php:208
+msgid "No contect From 7 form found"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:38
+msgid "No contact forms found"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:60
+msgid "Animation Options"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:69
+msgid "Animation Class"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:78
+msgid "Delay Time(ms)"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:87
+msgid "Duration Time(ms)"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:110
+#: elementor-addons/includes/widgets/citygovt-blog.php:108
+msgid "1"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:113
+#: elementor-addons/includes/widgets/citygovt-blog.php:109
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:119
+msgid "2"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:116
+#: elementor-addons/includes/widgets/citygovt-blog.php:110
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:41
+msgid "3"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:119
+#: elementor-addons/includes/widgets/citygovt-blog.php:111
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:120
+msgid "4"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:122
+msgid "6"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:125
+msgid "12"
+msgstr ""
+
+#: elementor-addons/includes/city_govt_core_functions.php:133
+msgid "Number Of Coloumns"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:6
+#: elementor-addons/includes/masonary-custom-gallery.php:8
+#: elementor-addons/includes/widgets/citygovt-gallery.php:18
+#: elementor-addons/includes/widgets/citygovt-gallery.php:33
+msgid "Gallery"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:7
+#: elementor-addons/includes/masonary-custom-gallery.php:69
+msgid "Add subtitle"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:9
+#: elementor-addons/includes/masonary-custom-gallery.php:71
+msgid "Add New"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:10
+msgid "Add New Gallery"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:11
+msgid "Edit Gallery"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:12
+msgid "New Gallery"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:13
+msgid "View Gallery"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:14
+msgid "Search Gallery"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:15
+msgid "No Gallery found"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:16
+msgid "No Gallery found in Trash"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:33
+msgid "gallery"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:38
+msgid "Gallery Categories"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:39
+#: elementor-addons/includes/masonary-custom-gallery.php:48
+msgid "Gallery Category"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:40
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:41
+msgid "All Gallery Categories"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:42
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:43
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:44
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:45
+msgid "Update Gallery Category"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:46
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:47
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:68
+#: elementor-addons/includes/masonary-custom-gallery.php:95
+msgid "department"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:70
+msgid "Department"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:72
+msgid "Add New department"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:73
+msgid "Edit Department"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:74
+msgid "New Department"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:75
+msgid "View Department"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:76
+msgid "Search Department"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:77
+msgid "No Department found"
+msgstr ""
+
+#: elementor-addons/includes/masonary-custom-gallery.php:78
+msgid "No Department found in Trash"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:14
+msgid "Slider Banner"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:36
+#: elementor-addons/includes/widgets/citygovt-department.php:37
+#: elementor-addons/includes/widgets/citygovt-fluid.php:37
+#: elementor-addons/includes/widgets/citygovt-gallery.php:39
+#: elementor-addons/includes/widgets/citygovt-highlight.php:37
+#: elementor-addons/includes/widgets/citygovt-team.php:37
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:37
+#: elementor-addons/includes/widgets/citygovt-welcome.php:38
+msgid "Layout Style"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:40
+#: elementor-addons/includes/widgets/citygovt-blog.php:66
+#: elementor-addons/includes/widgets/citygovt-department.php:41
+#: elementor-addons/includes/widgets/citygovt-fluid.php:41
+#: elementor-addons/includes/widgets/citygovt-gallery.php:43
+#: elementor-addons/includes/widgets/citygovt-highlight.php:41
+#: elementor-addons/includes/widgets/citygovt-team.php:41
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:41
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:41
+#: elementor-addons/includes/widgets/citygovt-welcome.php:42
+msgid "Style 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:41
+#: elementor-addons/includes/widgets/citygovt-blog.php:67
+#: elementor-addons/includes/widgets/citygovt-department.php:42
+#: elementor-addons/includes/widgets/citygovt-fluid.php:42
+#: elementor-addons/includes/widgets/citygovt-gallery.php:44
+#: elementor-addons/includes/widgets/citygovt-highlight.php:42
+#: elementor-addons/includes/widgets/citygovt-team.php:42
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:42
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:42
+#: elementor-addons/includes/widgets/citygovt-welcome.php:43
+msgid "Style 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:49
+#: elementor-addons/includes/widgets/citygovt-about.php:38
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:38
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:37
+#: elementor-addons/includes/widgets/citygovt-history.php:40
+msgid "BG Image 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:62
+#: elementor-addons/includes/widgets/citygovt-about.php:50
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:50
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:49
+#: elementor-addons/includes/widgets/citygovt-history.php:52
+msgid "BG Image 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:76
+#: elementor-addons/includes/widgets/city-govt-team-two.php:103
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:64
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:77
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:60
+#: elementor-addons/includes/widgets/citygovt-download-source.php:49
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:109
+#: elementor-addons/includes/widgets/citygovt-facts.php:30
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:33
+#: elementor-addons/includes/widgets/citygovt-faq.php:62
+#: elementor-addons/includes/widgets/citygovt-fluid.php:62
+#: elementor-addons/includes/widgets/citygovt-get-info.php:85
+#: elementor-addons/includes/widgets/citygovt-highlight.php:91
+#: elementor-addons/includes/widgets/citygovt-history.php:87
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:56
+#: elementor-addons/includes/widgets/citygovt-service.php:76
+#: elementor-addons/includes/widgets/citygovt-team.php:78
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:74
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:139
+#: elementor-addons/includes/widgets/citygovt-welcome.php:85
+msgid "item"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:85
+#: elementor-addons/includes/widgets/city-govt-team-two.php:50
+#: elementor-addons/includes/widgets/citygovt-about.php:62
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:73
+#: elementor-addons/includes/widgets/citygovt-blog.php:76
+#: elementor-addons/includes/widgets/citygovt-blog.php:127
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:78
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:38
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:95
+#: elementor-addons/includes/widgets/citygovt-contact.php:63
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:38
+#: elementor-addons/includes/widgets/citygovt-department.php:59
+#: elementor-addons/includes/widgets/citygovt-department.php:132
+#: elementor-addons/includes/widgets/citygovt-department.php:240
+#: elementor-addons/includes/widgets/citygovt-department.php:258
+#: elementor-addons/includes/widgets/citygovt-download-source.php:38
+#: elementor-addons/includes/widgets/citygovt-education-history.php:55
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:83
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:140
+#: elementor-addons/includes/widgets/citygovt-events.php:89
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:61
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:148
+#: elementor-addons/includes/widgets/citygovt-facts.php:48
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:50
+#: elementor-addons/includes/widgets/citygovt-faq.php:39
+#: elementor-addons/includes/widgets/citygovt-faq.php:71
+#: elementor-addons/includes/widgets/citygovt-fluid.php:71
+#: elementor-addons/includes/widgets/citygovt-gallery.php:53
+#: elementor-addons/includes/widgets/citygovt-gallery.php:77
+#: elementor-addons/includes/widgets/citygovt-get-info.php:38
+#: elementor-addons/includes/widgets/citygovt-get-info.php:94
+#: elementor-addons/includes/widgets/citygovt-highlight.php:63
+#: elementor-addons/includes/widgets/citygovt-history.php:64
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:38
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:74
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:55
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:55
+#: elementor-addons/includes/widgets/citygovt-service-three.php:52
+#: elementor-addons/includes/widgets/citygovt-service-two.php:50
+#: elementor-addons/includes/widgets/citygovt-service-two.php:101
+#: elementor-addons/includes/widgets/citygovt-service-two.php:154
+#: elementor-addons/includes/widgets/citygovt-service-two.php:211
+#: elementor-addons/includes/widgets/citygovt-service.php:40
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:67
+#: elementor-addons/includes/widgets/citygovt-team.php:51
+#: elementor-addons/includes/widgets/citygovt-team.php:87
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:50
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:51
+#: elementor-addons/includes/widgets/citygovt-welcome.php:62
+#: elementor-addons/includes/widgets/citygovt-welcome.php:94
+#: elementor-addons/includes/widgets/citygovt-welcome.php:228
+#: elementor-addons/includes/widgets/citygovt-welcome.php:239
+#: elementor-addons/includes/widgets/service-heading.php:38
+#: widgets/citygovt-contact-widget.php:33
+#: widgets/citygovt-newletter-widget.php:37
+msgid "Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:87
+msgid "London is <br>Best Town on <br>Earth"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:94
+#: elementor-addons/includes/widgets/citygovt-contact.php:82
+#: elementor-addons/includes/widgets/citygovt-contact.php:139
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:70
+#: elementor-addons/includes/widgets/citygovt-fluid.php:92
+#: elementor-addons/includes/widgets/citygovt-service-three.php:61
+#: elementor-addons/includes/widgets/citygovt-welcome.php:104
+msgid "Sub Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:97
+#: elementor-addons/includes/widgets/city-govt-team-two.php:93
+#: elementor-addons/includes/widgets/citygovt-about.php:91
+#: elementor-addons/includes/widgets/citygovt-about.php:101
+#: elementor-addons/includes/widgets/citygovt-about.php:110
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:91
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:55
+#: elementor-addons/includes/widgets/citygovt-contact.php:144
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:50
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:74
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:165
+#: elementor-addons/includes/widgets/citygovt-facts.php:61
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:63
+#: elementor-addons/includes/widgets/citygovt-faq.php:52
+#: elementor-addons/includes/widgets/citygovt-fluid.php:96
+#: elementor-addons/includes/widgets/citygovt-get-info.php:111
+#: elementor-addons/includes/widgets/citygovt-highlight.php:125
+#: elementor-addons/includes/widgets/citygovt-history.php:77
+#: elementor-addons/includes/widgets/citygovt-history.php:130
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:87
+#: elementor-addons/includes/widgets/citygovt-service-three.php:98
+#: elementor-addons/includes/widgets/citygovt-service.php:122
+#: elementor-addons/includes/widgets/citygovt-team.php:68
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:121
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:68
+#: elementor-addons/includes/widgets/citygovt-welcome.php:75
+#: elementor-addons/includes/widgets/citygovt-welcome.php:178
+msgid "Type your description here"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:105
+msgid "Button Text 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:107
+#: elementor-addons/includes/widgets/citygovt-about.php:162
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:101
+msgid "Learn More"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:114
+msgid "Button Link 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:116
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:142
+#: elementor-addons/includes/widgets/city-govt-team-two.php:71
+#: elementor-addons/includes/widgets/city-govt-team-two.php:144
+#: elementor-addons/includes/widgets/city-govt-team-two.php:160
+#: elementor-addons/includes/widgets/city-govt-team-two.php:176
+#: elementor-addons/includes/widgets/city-govt-team-two.php:191
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:110
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:64
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:116
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:132
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:148
+#: elementor-addons/includes/widgets/citygovt-department.php:116
+#: elementor-addons/includes/widgets/citygovt-department.php:161
+#: elementor-addons/includes/widgets/citygovt-department.php:186
+#: elementor-addons/includes/widgets/citygovt-department.php:269
+#: elementor-addons/includes/widgets/citygovt-download-source.php:77
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:93
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:175
+#: elementor-addons/includes/widgets/citygovt-get-info.php:58
+#: elementor-addons/includes/widgets/citygovt-highlight.php:153
+#: elementor-addons/includes/widgets/citygovt-highlight.php:178
+#: elementor-addons/includes/widgets/citygovt-history.php:149
+#: elementor-addons/includes/widgets/citygovt-service-three.php:72
+#: elementor-addons/includes/widgets/citygovt-service-three.php:119
+#: elementor-addons/includes/widgets/citygovt-service-two.php:112
+#: elementor-addons/includes/widgets/citygovt-service-two.php:185
+#: elementor-addons/includes/widgets/citygovt-service-two.php:220
+#: elementor-addons/includes/widgets/citygovt-service.php:60
+#: elementor-addons/includes/widgets/citygovt-service.php:105
+#: elementor-addons/includes/widgets/citygovt-service.php:141
+#: elementor-addons/includes/widgets/citygovt-team.php:135
+#: elementor-addons/includes/widgets/citygovt-team.php:150
+#: elementor-addons/includes/widgets/citygovt-team.php:166
+#: elementor-addons/includes/widgets/citygovt-team.php:181
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:114
+#: elementor-addons/includes/widgets/citygovt-welcome.php:115
+#: elementor-addons/includes/widgets/citygovt-welcome.php:160
+#: elementor-addons/includes/widgets/citygovt-welcome.php:188
+msgid "https://your-link.com"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:130
+msgid "Button Text 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:132
+msgid "Visit Museum"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:140
+msgid "Button Link 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:156
+msgid "Slider Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:168
+#: elementor-addons/includes/widgets/citygovt-department.php:141
+#: elementor-addons/includes/widgets/citygovt-facts.php:39
+msgid "Count Number"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:170
+#: elementor-addons/includes/widgets/citygovt-highlight.php:135
+#: elementor-addons/includes/widgets/citygovt-highlight.php:144
+msgid "02"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:177
+msgid "Count Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:179
+msgid "Save time , pay your tax online"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:186
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:86
+#: elementor-addons/includes/widgets/citygovt-contact.php:73
+#: elementor-addons/includes/widgets/citygovt-department.php:150
+#: elementor-addons/includes/widgets/citygovt-faq.php:80
+#: elementor-addons/includes/widgets/citygovt-fluid.php:51
+#: elementor-addons/includes/widgets/citygovt-fluid.php:104
+#: elementor-addons/includes/widgets/citygovt-highlight.php:204
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:65
+#: elementor-addons/includes/widgets/citygovt-service-three.php:86
+#: elementor-addons/includes/widgets/citygovt-service-two.php:174
+#: elementor-addons/includes/widgets/citygovt-service.php:85
+#: elementor-addons/includes/widgets/citygovt-team.php:107
+#: elementor-addons/includes/widgets/citygovt-welcome.php:129
+#: elementor-addons/includes/widgets/citygovt-welcome.php:259
+msgid "Icon"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:194
+msgid "Video Icon Switcher"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:205
+msgid "Icon 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:215
+#: elementor-addons/includes/widgets/city-govt-team-two.php:205
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:124
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:113
+#: elementor-addons/includes/widgets/citygovt-contact.php:102
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:81
+#: elementor-addons/includes/widgets/citygovt-department.php:200
+#: elementor-addons/includes/widgets/citygovt-department.php:282
+#: elementor-addons/includes/widgets/citygovt-download-source.php:91
+#: elementor-addons/includes/widgets/citygovt-education-history.php:74
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:82
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:189
+#: elementor-addons/includes/widgets/citygovt-facts.php:69
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:71
+#: elementor-addons/includes/widgets/citygovt-faq.php:89
+#: elementor-addons/includes/widgets/citygovt-fluid.php:113
+#: elementor-addons/includes/widgets/citygovt-get-info.php:119
+#: elementor-addons/includes/widgets/citygovt-highlight.php:213
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:95
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:82
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:74
+#: elementor-addons/includes/widgets/citygovt-service-three.php:133
+#: elementor-addons/includes/widgets/citygovt-service-two.php:126
+#: elementor-addons/includes/widgets/citygovt-service-two.php:234
+#: elementor-addons/includes/widgets/citygovt-service.php:155
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:93
+#: elementor-addons/includes/widgets/citygovt-team.php:212
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:129
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:160
+#: elementor-addons/includes/widgets/citygovt-welcome.php:202
+#: elementor-addons/includes/widgets/citygovt-welcome.php:268
+msgid "Repeater List"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:220
+#: elementor-addons/includes/widgets/city-govt-team-two.php:210
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:129
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:118
+#: elementor-addons/includes/widgets/citygovt-contact.php:107
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:86
+#: elementor-addons/includes/widgets/citygovt-department.php:205
+#: elementor-addons/includes/widgets/citygovt-department.php:287
+#: elementor-addons/includes/widgets/citygovt-download-source.php:96
+#: elementor-addons/includes/widgets/citygovt-education-history.php:79
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:87
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:194
+#: elementor-addons/includes/widgets/citygovt-facts.php:74
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:76
+#: elementor-addons/includes/widgets/citygovt-faq.php:94
+#: elementor-addons/includes/widgets/citygovt-fluid.php:118
+#: elementor-addons/includes/widgets/citygovt-get-info.php:124
+#: elementor-addons/includes/widgets/citygovt-highlight.php:218
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:100
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:87
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:79
+#: elementor-addons/includes/widgets/citygovt-service-three.php:138
+#: elementor-addons/includes/widgets/citygovt-service-two.php:131
+#: elementor-addons/includes/widgets/citygovt-service-two.php:239
+#: elementor-addons/includes/widgets/citygovt-service.php:160
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:98
+#: elementor-addons/includes/widgets/citygovt-team.php:217
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:134
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:165
+#: elementor-addons/includes/widgets/citygovt-welcome.php:207
+#: elementor-addons/includes/widgets/citygovt-welcome.php:273
+msgid "Title #1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:221
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:225
+#: elementor-addons/includes/widgets/city-govt-team-two.php:211
+#: elementor-addons/includes/widgets/city-govt-team-two.php:215
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:130
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:134
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:119
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:123
+#: elementor-addons/includes/widgets/citygovt-contact.php:108
+#: elementor-addons/includes/widgets/citygovt-contact.php:112
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:87
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:91
+#: elementor-addons/includes/widgets/citygovt-department.php:206
+#: elementor-addons/includes/widgets/citygovt-department.php:210
+#: elementor-addons/includes/widgets/citygovt-department.php:288
+#: elementor-addons/includes/widgets/citygovt-department.php:292
+#: elementor-addons/includes/widgets/citygovt-download-source.php:97
+#: elementor-addons/includes/widgets/citygovt-download-source.php:101
+#: elementor-addons/includes/widgets/citygovt-education-history.php:80
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:88
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:195
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:199
+#: elementor-addons/includes/widgets/citygovt-facts.php:75
+#: elementor-addons/includes/widgets/citygovt-facts.php:79
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:77
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:81
+#: elementor-addons/includes/widgets/citygovt-faq.php:95
+#: elementor-addons/includes/widgets/citygovt-faq.php:99
+#: elementor-addons/includes/widgets/citygovt-fluid.php:119
+#: elementor-addons/includes/widgets/citygovt-fluid.php:123
+#: elementor-addons/includes/widgets/citygovt-get-info.php:125
+#: elementor-addons/includes/widgets/citygovt-get-info.php:129
+#: elementor-addons/includes/widgets/citygovt-highlight.php:219
+#: elementor-addons/includes/widgets/citygovt-highlight.php:223
+#: elementor-addons/includes/widgets/citygovt-history.php:169
+#: elementor-addons/includes/widgets/citygovt-history.php:173
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:101
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:105
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:88
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:80
+#: elementor-addons/includes/widgets/citygovt-service-three.php:139
+#: elementor-addons/includes/widgets/citygovt-service-three.php:143
+#: elementor-addons/includes/widgets/citygovt-service-two.php:132
+#: elementor-addons/includes/widgets/citygovt-service-two.php:136
+#: elementor-addons/includes/widgets/citygovt-service-two.php:240
+#: elementor-addons/includes/widgets/citygovt-service-two.php:244
+#: elementor-addons/includes/widgets/citygovt-service.php:161
+#: elementor-addons/includes/widgets/citygovt-service.php:165
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:99
+#: elementor-addons/includes/widgets/citygovt-team.php:218
+#: elementor-addons/includes/widgets/citygovt-team.php:222
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:135
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:139
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:166
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:170
+#: elementor-addons/includes/widgets/citygovt-welcome.php:208
+#: elementor-addons/includes/widgets/citygovt-welcome.php:212
+#: elementor-addons/includes/widgets/citygovt-welcome.php:274
+#: elementor-addons/includes/widgets/citygovt-welcome.php:278
+msgid "Item content. Click the edit button to change this text."
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-slider-banner-one.php:224
+#: elementor-addons/includes/widgets/city-govt-team-two.php:214
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:133
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:122
+#: elementor-addons/includes/widgets/citygovt-contact.php:111
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:90
+#: elementor-addons/includes/widgets/citygovt-department.php:209
+#: elementor-addons/includes/widgets/citygovt-department.php:291
+#: elementor-addons/includes/widgets/citygovt-download-source.php:100
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:198
+#: elementor-addons/includes/widgets/citygovt-facts.php:78
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:80
+#: elementor-addons/includes/widgets/citygovt-faq.php:98
+#: elementor-addons/includes/widgets/citygovt-fluid.php:122
+#: elementor-addons/includes/widgets/citygovt-get-info.php:128
+#: elementor-addons/includes/widgets/citygovt-highlight.php:222
+#: elementor-addons/includes/widgets/citygovt-history.php:172
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:104
+#: elementor-addons/includes/widgets/citygovt-service-three.php:142
+#: elementor-addons/includes/widgets/citygovt-service-two.php:135
+#: elementor-addons/includes/widgets/citygovt-service-two.php:243
+#: elementor-addons/includes/widgets/citygovt-service.php:164
+#: elementor-addons/includes/widgets/citygovt-team.php:221
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:138
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:169
+#: elementor-addons/includes/widgets/citygovt-welcome.php:211
+#: elementor-addons/includes/widgets/citygovt-welcome.php:277
+msgid "Title #2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:16
+msgid "Citygovt Team Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:32
+#: elementor-addons/includes/widgets/citygovt-about.php:31
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:31
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:31
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:31
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:31
+#: elementor-addons/includes/widgets/citygovt-download-source.php:31
+#: elementor-addons/includes/widgets/citygovt-education-history.php:31
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:31
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:109
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:30
+#: elementor-addons/includes/widgets/citygovt-faq.php:32
+#: elementor-addons/includes/widgets/citygovt-fluid.php:31
+#: elementor-addons/includes/widgets/citygovt-get-info.php:31
+#: elementor-addons/includes/widgets/citygovt-highlight.php:31
+#: elementor-addons/includes/widgets/citygovt-history.php:33
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:31
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:31
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:31
+#: elementor-addons/includes/widgets/citygovt-service.php:31
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:31
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:31
+#: elementor-addons/includes/widgets/citygovt-team.php:31
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:31
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:31
+#: elementor-addons/includes/widgets/citygovt-welcome.php:32
+msgid "general"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:38
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:116
+msgid "BG Image "
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:52
+#: elementor-addons/includes/widgets/city-govt-team-two.php:61
+#: elementor-addons/includes/widgets/citygovt-team.php:53
+msgid "Meet Council Members"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:59
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:99
+#: elementor-addons/includes/widgets/citygovt-department.php:175
+#: elementor-addons/includes/widgets/citygovt-get-info.php:47
+#: elementor-addons/includes/widgets/citygovt-service.php:49
+#: elementor-addons/includes/widgets/citygovt-service.php:130
+msgid "Button Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:69
+#: elementor-addons/includes/widgets/citygovt-service.php:139
+msgid "Button Title Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:85
+#: elementor-addons/includes/widgets/citygovt-about.php:107
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:83
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:47
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:47
+#: elementor-addons/includes/widgets/citygovt-education-history.php:64
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:58
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:148
+#: elementor-addons/includes/widgets/citygovt-events.php:54
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:157
+#: elementor-addons/includes/widgets/citygovt-facts.php:57
+#: elementor-addons/includes/widgets/citygovt-get-info.php:103
+#: elementor-addons/includes/widgets/citygovt-highlight.php:73
+#: elementor-addons/includes/widgets/citygovt-highlight.php:117
+#: elementor-addons/includes/widgets/citygovt-history.php:73
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:63
+#: elementor-addons/includes/widgets/citygovt-service-three.php:94
+#: elementor-addons/includes/widgets/citygovt-service.php:119
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:76
+#: elementor-addons/includes/widgets/citygovt-team.php:60
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:113
+#: elementor-addons/includes/widgets/citygovt-welcome.php:71
+#: widgets/citygovt-newletter-widget.php:45
+msgid "Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:89
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:51
+#: elementor-addons/includes/widgets/citygovt-highlight.php:77
+#: elementor-addons/includes/widgets/citygovt-team.php:64
+#: elementor-addons/includes/widgets/service-heading.php:50
+msgid ""
+"Denounce with righteous indignation and dislike men who are so beguiled &\n"
+"                demoralized our power of choice."
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:112
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:69
+#: elementor-addons/includes/widgets/citygovt-department.php:69
+#: elementor-addons/includes/widgets/citygovt-highlight.php:192
+#: elementor-addons/includes/widgets/citygovt-history.php:105
+#: elementor-addons/includes/widgets/citygovt-service-two.php:162
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:38
+#: elementor-addons/includes/widgets/citygovt-team.php:96
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:148
+msgid "Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:124
+#: elementor-addons/includes/widgets/citygovt-about.php:127
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:66
+#: elementor-addons/includes/widgets/citygovt-gallery.php:78
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:49
+#: elementor-addons/includes/widgets/citygovt-team.php:116
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:95
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:76
+msgid "Name"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:126
+#: elementor-addons/includes/widgets/citygovt-team.php:118
+msgid "Bertram Irvin"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:133
+#: elementor-addons/includes/widgets/citygovt-about.php:136
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:74
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:57
+#: elementor-addons/includes/widgets/citygovt-team.php:125
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:104
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:85
+msgid "Designation"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:135
+#: elementor-addons/includes/widgets/citygovt-team.php:127
+msgid "CEO & Founder"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:142
+#: elementor-addons/includes/widgets/citygovt-department.php:159
+#: elementor-addons/includes/widgets/citygovt-department.php:267
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:173
+#: elementor-addons/includes/widgets/citygovt-service-three.php:70
+#: elementor-addons/includes/widgets/citygovt-service-two.php:110
+#: elementor-addons/includes/widgets/citygovt-service-two.php:218
+msgid "Title Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:158
+#: elementor-addons/includes/widgets/citygovt-team.php:148
+msgid "Facbook Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:174
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:130
+#: elementor-addons/includes/widgets/citygovt-team.php:164
+#: meta-box/config-meta-box.php:117
+msgid "Twitter Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/city-govt-team-two.php:189
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:146
+#: elementor-addons/includes/widgets/citygovt-team.php:179
+msgid "Linkedin Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:15
+msgid "Citygovt About"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:64
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:53
+msgid "The Major Voice of <br>City Government, London"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:70
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:55
+msgid "Picture"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:81
+msgid "Video URL"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:88
+#: elementor-addons/includes/widgets/citygovt-department.php:52
+msgid "Upper Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:98
+#: elementor-addons/includes/widgets/citygovt-department.php:221
+msgid "Lower Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:116
+msgid "Signature"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:129
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:78
+msgid "Brendon Garrey"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:138
+msgid "London city mayor"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:145
+msgid "Hover Quote Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:147
+msgid "My highest priority is keeping Londoners safe from harm"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:153
+msgid "Button URL"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-about.php:160
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:82
+msgid "Button Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:15
+msgid "Banner Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:76
+msgid "Serving Citizen <br>Through Public Policy"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:87
+msgid ""
+"Beguiled and demoralized by the charms of pleasure of the moment, so\n"
+"                                blinded by desire."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-banner-two.php:108
+#: elementor-addons/includes/widgets/citygovt-department.php:184
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:91
+#: elementor-addons/includes/widgets/citygovt-get-info.php:56
+#: elementor-addons/includes/widgets/citygovt-service.php:58
+msgid "Button Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:16
+msgid "Blog"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:56
+msgid "Blogs"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:62
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:37
+msgid "Blog Style"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:87
+msgid "Category"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:95
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:65
+#: elementor-addons/includes/widgets/citygovt-events.php:61
+msgid "Number of Post"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:104
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:115
+msgid "Number of Column"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:120
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:74
+#: elementor-addons/includes/widgets/citygovt-events.php:80
+#: elementor-addons/includes/widgets/citygovt-gallery.php:71
+msgid "Order By"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:124
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:80
+#: elementor-addons/includes/widgets/citygovt-events.php:86
+#: elementor-addons/includes/widgets/citygovt-gallery.php:75
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:47
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:94
+msgid "Date"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:125
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:81
+#: elementor-addons/includes/widgets/citygovt-events.php:87
+#: elementor-addons/includes/widgets/citygovt-gallery.php:76
+msgid "ID"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:126
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:82
+#: elementor-addons/includes/widgets/citygovt-events.php:88
+msgid "Author"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:128
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:84
+#: elementor-addons/includes/widgets/citygovt-events.php:90
+#: elementor-addons/includes/widgets/citygovt-gallery.php:79
+msgid "Modified"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:129
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:85
+#: elementor-addons/includes/widgets/citygovt-events.php:91
+msgid "Random"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:130
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:86
+#: elementor-addons/includes/widgets/citygovt-events.php:92
+msgid "Comment count"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:131
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:87
+#: elementor-addons/includes/widgets/citygovt-events.php:93
+msgid "Menu order"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:139
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:95
+#: elementor-addons/includes/widgets/citygovt-events.php:101
+msgid "Order"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:143
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:99
+#: elementor-addons/includes/widgets/citygovt-events.php:105
+msgid "DESC"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-blog.php:144
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:100
+#: elementor-addons/includes/widgets/citygovt-events.php:106
+msgid "ASC"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:15
+msgid "Comming Soon"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:38
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:63
+#: elementor-addons/includes/widgets/citygovt-department.php:228
+#: elementor-addons/includes/widgets/citygovt-fluid.php:80
+#: elementor-addons/includes/widgets/citygovt-highlight.php:50
+#: elementor-addons/includes/widgets/citygovt-service-three.php:40
+#: elementor-addons/includes/widgets/citygovt-service-two.php:38
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:60
+msgid "BG Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:50
+msgid "Logo Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:62
+#: elementor-addons/includes/widgets/citygovt-team.php:133
+msgid "Page Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:80
+msgid "Christmas Celebration"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:87
+msgid "CountDown Date"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:89
+msgid "2020/3/17"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:95
+#: elementor-addons/includes/widgets/citygovt-contact.php:151
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:164
+#: elementor-addons/includes/widgets/citygovt-get-info.php:71
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:53
+msgid "Select Contact Form"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:96
+#: elementor-addons/includes/widgets/citygovt-contact.php:152
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:165
+#: elementor-addons/includes/widgets/citygovt-get-info.php:72
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:54
+msgid "Contact form 7 - plugin must be installed and there must be some contact forms made with the contact form 7"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:107
+msgid "Social"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-comming-soon.php:114
+#: meta-box/config-meta-box.php:112
+msgid "Facebook Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:15
+msgid "Contact Info"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:40
+msgid "Suggestion and Complaints"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:97
+msgid "LN 311"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:104
+msgid "Contact Number"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact-info.php:106
+#: elementor-addons/includes/widgets/citygovt-contact.php:95
+#: elementor-addons/includes/widgets/citygovt-welcome.php:252
+msgid "+44 888 12 345"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:15
+msgid "CityGovt Contact"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:31
+msgid "Left Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:38
+msgid "Image 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:50
+msgid "Image 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:66
+msgid "Quick contact"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:85
+msgid "Call on"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:92
+msgid "Contact"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:123
+msgid "Right Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:129
+msgid "Contact Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:132
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:39
+msgid "We’re Here to Help You"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-contact.php:143
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:47
+msgid "Shoot us a message if you have any question, we’re here to help!."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:15
+msgid "Department Carosel"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department-carosel.php:40
+msgid "What We Do"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:16
+msgid "Citygovt Department"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:62
+#: elementor-addons/includes/widgets/citygovt-department.php:242
+msgid "Explore Our Departments"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:80
+msgid "Counter Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:94
+msgid "Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:96
+msgid "Foresee the pain and trouble that are bound to ensue;"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:104
+msgid "Department Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:106
+msgid "All Department"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:114
+msgid "Department Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:134
+#: elementor-addons/includes/widgets/citygovt-department.php:260
+#: elementor-addons/includes/widgets/citygovt-service.php:96
+msgid "Policing & <br>crime department"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:143
+msgid "01"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:177
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:271
+#: elementor-addons/includes/widgets/citygovt-events.php:195
+#: elementor-addons/includes/widgets/citygovt-events.php:252
+#: elementor-addons/includes/widgets/citygovt-service.php:132
+msgid "Read More"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:248
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:128
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:39
+msgid "Total Item"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-department.php:250
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:84
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:130
+msgid "Contact Us"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-download-source.php:15
+msgid "Download Resource"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-download-source.php:40
+msgid "Download Resources"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-download-source.php:58
+msgid "Pdf |title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-download-source.php:60
+msgid "Cultural Centers and Event schedule.pdf"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-download-source.php:67
+msgid "Download Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-download-source.php:69
+msgid "12 mb [ Download ]"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-download-source.php:75
+msgid "Download Link "
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-education-history.php:15
+msgid "Education History"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-education-history.php:37
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:37
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:37
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:37
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:37
+msgid "Heading"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-education-history.php:39
+msgid "Education"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-education-history.php:45
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:45
+msgid "Desc"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-education-history.php:47
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:47
+msgid "Welcomed and every pain avoided. But in certain circumstances and owing too the claims off duty bligations of business it will frequently occur that pleasures have to be repudiated & annoyances that accepted wise man therefore always holds indignation"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-education-history.php:58
+msgid "1979 – 1983"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-education-history.php:67
+msgid "Occidental College in LA"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:15
+msgid "Citygovt Event Guest"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:39
+msgid "Special Guest"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:45
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:46
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:37
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:85
+msgid "Extra Class"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-guest.php:76
+msgid "Mayor"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:15
+msgid "Citygovt Event Subscribe"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:30
+#: elementor-addons/includes/widgets/citygovt-events.php:34
+msgid "event design area"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:45
+#: elementor-addons/includes/widgets/citygovt-events.php:41
+msgid "Event Style"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:49
+#: elementor-addons/includes/widgets/citygovt-events.php:45
+msgid "One"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:50
+#: elementor-addons/includes/widgets/citygovt-events.php:46
+msgid "Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:78
+#: elementor-addons/includes/widgets/citygovt-events.php:84
+msgid "_EventStartDate"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:79
+#: elementor-addons/includes/widgets/citygovt-events.php:85
+msgid "_EventEndDate"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:128
+msgid "Icon Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:142
+msgid "SUBSCRIBE US"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:150
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:158
+msgid "Get latest News, Events Details."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-event-subscribe-widget.php:156
+msgid "Event Link Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-events.php:19
+msgid "Events"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-events.php:69
+msgid "Pagination Show Hide"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-events.php:149
+msgid "to"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-events.php:283
+#: elementor-addons/includes/widgets/citygovt-gallery.php:328
+msgid "prev"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-events.php:284
+#: elementor-addons/includes/widgets/citygovt-gallery.php:329
+msgid "next"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:15
+msgid "Citygovt Extend Info"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:63
+msgid "Thinking of living in london city?"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:73
+msgid "Everyone should live in a london city at least once."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:139
+msgid "Slash Field"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:141
+msgid "//////"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:150
+msgid "City Plantation Award – 1988"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-extend-info.php:161
+msgid ""
+"Blinded by desire, that they cannot foresee belongs which through\n"
+"                                    shrinking."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-facts.php:14
+msgid "Citygovt Facts"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-facts.php:41
+msgid "850k"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-facts.php:50
+msgid "People lived in <br>our city"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-facts.php:60
+msgid "Foresee the pain and trouble that are bound ensue equal blame belongs."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:17
+msgid "Citygovt Faq Template"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:52
+#: elementor-addons/includes/widgets/citygovt-get-info.php:96
+msgid "Complaint about road parking?"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:59
+#: elementor-addons/includes/widgets/citygovt-faq.php:48
+#: elementor-addons/includes/widgets/citygovt-history.php:126
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:83
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:60
+#: elementor-addons/includes/widgets/service-heading.php:47
+msgid "Description"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq-template.php:62
+msgid "Pleasure and praising pain was born and i will give you a complete account of the system actual teachings."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq.php:16
+msgid "Citygovt Faq"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq.php:41
+msgid "I Have a Question About"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq.php:51
+msgid "You have the rights to ask any legal questions, so don’t hestitate to ask us here are listed some questions & answers"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq.php:73
+msgid "The mayor"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq.php:109
+msgid "Faq list area"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq.php:117
+msgid "Block"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-faq.php:126
+msgid "About count list"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-fluid.php:15
+msgid "Citygovt Fluid"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-fluid.php:73
+msgid "Thinking of <br>living in london city?"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-fluid.php:95
+msgid "Everyone should live in a big <br>city at least once."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:45
+msgid "Style 3"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:55
+msgid "What We Have Done In Our <br>City Council"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:62
+msgid "Number of Gallary"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:80
+msgid "Rand"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:88
+msgid "Sort Order"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:92
+msgid "Descending"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:93
+msgid "Ascending"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-gallery.php:128
+#: elementor-addons/includes/widgets/citygovt-gallery.php:227
+#: elementor-addons/includes/widgets/citygovt-gallery.php:361
+msgid "View All"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-get-info.php:15
+msgid "CityGovt Get Info"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-get-info.php:40
+msgid "The Freedom of Information"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-get-info.php:49
+msgid "More Answers"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-get-info.php:107
+msgid ""
+"Pleasure and praising pain was born and i will give you a complete\n"
+"                                        account of the system actual teachings."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:15
+msgid "Citygovt Highlight"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:65
+msgid "City Highlights"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:100
+msgid "Title 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:102
+msgid "The british <br>museum"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:109
+msgid "Title 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:111
+msgid "The british museum"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:121
+msgid ""
+"We denounce with righteus dislike indignation and dislike demoralized by teh\n"
+"\t\t\t\t\tpleasure moment."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:133
+msgid "Count Number 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:142
+msgid "Count Number 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:151
+msgid "Title Link "
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:167
+msgid "Video Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:169
+msgid "Video Tour"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-highlight.php:176
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:112
+msgid "Video Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:15
+msgid "Citygovt History"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:66
+msgid "Most Memorable Movements"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:76
+msgid "Denounce with righteous indignation and dislike men who are so beguiled & demoralized our power of choice . "
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:96
+msgid "Year"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:98
+msgid "1745"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:117
+msgid "Tagline"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:119
+msgid "London City"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:129
+msgid "Blinded by desire thety cannot foresee belongs to which through shrinking which is the same as saying shrinking from toil and pain . "
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:138
+msgid "Header"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:140
+msgid "Council founded"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:147
+msgid "Header Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:163
+msgid "Repeater list"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-history.php:168
+msgid "Title // 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:15
+msgid "Infra Structure"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:40
+msgid "Cultural Infrastructure"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:76
+msgid "Policing & crime"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-infra-structure.php:86
+msgid "Blinded desire that cannot foresee belongs all shrinking."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:15
+msgid "Citygovt Program Schedule"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:49
+msgid "9am - 10am"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:57
+msgid "Welcome speech from mayor"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:65
+msgid "Pleasure and praising pain was born and give you a complete."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:71
+msgid "Open"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-program-schedule.php:74
+msgid "No"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:15
+msgid "Progress Skill"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:39
+msgid "Professional Skills"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:58
+msgid "Crisis Management"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:64
+msgid "Progress Number"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-progress-skill.php:67
+msgid "25"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-three.php:17
+#: elementor-addons/includes/widgets/citygovt-service-three.php:33
+msgid "Service Three"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-three.php:54
+msgid "Service"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-three.php:63
+msgid "For Residents"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-three.php:97
+msgid "Foresee the pain and trouble that are bound to ensue;and equal."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-three.php:108
+#: elementor-addons/includes/widgets/citygovt-service.php:94
+msgid "Page Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-three.php:110
+msgid "Healthcare"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-three.php:117
+msgid "Page Link "
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:15
+msgid "Service Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:52
+msgid "Explore Online Services"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:58
+msgid "Switcher 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:68
+msgid "Switcher 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:78
+msgid "Switcher 3"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:91
+msgid "Column 1"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:146
+msgid "Column 2"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:183
+msgid "Youtube Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service-two.php:201
+msgid "Column 3"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service.php:15
+msgid "Citygovt Service"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service.php:42
+msgid "Explore Our Service Departments"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service.php:51
+msgid "All Departments"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-service.php:103
+msgid "Page Title Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:15
+msgid "Team Banner"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:51
+msgid "Herman Gordon"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:59
+msgid "Director"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:70
+msgid "Email :"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team-banner.php:79
+msgid "hermangordon@gmail.com"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:15
+msgid "Team Member Form"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team-member-form.php:45
+msgid "Sub Heading"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team.php:15
+msgid "Citygovt Team"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team.php:89
+msgid "Get Touch With Me"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team.php:195
+msgid "Phone Number"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team.php:197
+msgid "+44 800 123 45"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team.php:204
+msgid "Email"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-team.php:206
+msgid "elvina@citygov.com"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:15
+msgid "Citygovt Testimonial"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:52
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:97
+msgid "Lucian manroe"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:83
+msgid "Author Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:106
+msgid "Citizen"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-testimonial.php:117
+msgid ""
+"“Loves or pursues desires to obtain pain of itself, because pain because occasionally circumstances occur in which toil and pain can procure him some great\n"
+"                            pleasure.”"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:15
+msgid "Welcome Two"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:64
+msgid ""
+"Denounce with righteous indignation and dislike men who are so beguiled &\n"
+"                            demoralized our power of pleasure is to be welcomed."
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:87
+msgid "mayor"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:96
+msgid "since 21st Oct,2019"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:103
+msgid "Video Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:105
+msgid "History of <br>london                                     city council"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome-two.php:128
+msgid "Video Icon"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:15
+msgid "Citygovt Welcome"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:51
+msgid "Contact On Off"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:64
+msgid "What are The Today Activities of City Govt of London "
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:74
+msgid "We denounce with righteous indignation and dislike men who are so beguiled & demoralized"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:97
+#: elementor-addons/includes/widgets/citygovt-welcome.php:242
+msgid "In Effect"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:106
+#: elementor-addons/includes/widgets/citygovt-welcome.php:152
+msgid "Alternate side parking in effect"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:113
+msgid "Sub Title LInk"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:138
+msgid "Hover Bg Image"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:150
+msgid "Hover Title"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:158
+msgid "Hover Title Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:174
+msgid "Hover Content"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:177
+msgid "These cases are perfectly simple and easy work to distinguish"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:186
+msgid "Hover Icon Link"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:222
+msgid "Vertical Item"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:230
+msgid "Helplines and <br>emergency services"
+msgstr ""
+
+#: elementor-addons/includes/widgets/citygovt-welcome.php:249
+msgid "Contact Text"
+msgstr ""
+
+#: elementor-addons/includes/widgets/service-heading.php:15
+#: elementor-addons/includes/widgets/service-heading.php:31
+msgid "Service Heading"
+msgstr ""
+
+#: elementor-addons/includes/widgets/service-heading.php:40
+msgid "Awesome City Services"
+msgstr ""
+
+#: meta-box/config-meta-box.php:18 meta-box/config-meta-box.php:49
+msgid "Design Settings"
+msgstr ""
+
+#: meta-box/config-meta-box.php:28 meta-box/config-meta-box.php:59
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: meta-box/config-meta-box.php:38
+msgid "Sidebar Service Icon"
+msgstr ""
+
+#: meta-box/config-meta-box.php:92
+msgid "Event Settings"
+msgstr ""
+
+#: meta-box/config-meta-box.php:101
+msgid "Booking Form Title"
+msgstr ""
+
+#: meta-box/config-meta-box.php:106
+msgid "Booking Form"
+msgstr ""
+
+#: meta-box/config-meta-box.php:129
+msgid "Manage Gallery Meta Fields"
+msgstr ""
+
+#: meta-box/config-meta-box.php:138
+msgid "Upload Gallery masonary"
+msgstr ""
+
+#: social-share/share-link.php:9
+msgid "Share this post with your friends"
+msgstr ""
+
+#: social-share/share-link.php:11
+msgid "Facebook"
+msgstr ""
+
+#: social-share/share-link.php:12
+msgid "Twitter"
+msgstr ""
+
+#: social-share/share-link.php:13
+msgid "Linkedin"
+msgstr ""
+
+#: social-share/share-link.php:14
+msgid "Pinterest"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:8
+msgid "Get In Touch"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:19
+msgid "Citygovt Contact"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:21
+msgid "This widget will Contact."
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:42
+msgid "Mobile Phone"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:49
+msgid "Office Icon"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:57
+msgid "Emergency Number"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:64
+msgid "Emergency Icon"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:72
+msgid "Non Emergency Number"
+msgstr ""
+
+#: widgets/citygovt-contact-widget.php:80
+msgid "Non Emergency Icon"
+msgstr ""
+
+#: widgets/citygovt-newletter-widget.php:8
+msgid "Subscribe Us"
+msgstr ""
+
+#: widgets/citygovt-newletter-widget.php:15
+msgid "Citygovt Newsletter"
+msgstr ""
+
+#: widgets/citygovt-newletter-widget.php:17
+msgid "This widget will Subscribe Newsletter."
+msgstr ""
+
+#: widgets/citygovt-newletter-widget.php:52
+msgid "shortcode"
+msgstr ""
+
+#: widgets/citygovt-newletter-widget.php:57
+msgid "Image:"
+msgstr ""
+
+#: widgets/citygovt-newletter-widget.php:63
+msgid "Add Image"
+msgstr ""
+
+#: widgets/citygovt-service-sidebar-menu.php:27
+msgid "Add a Citygovt Services custom menu to your sidebar."
+msgstr ""
+
+#: widgets/citygovt-service-sidebar-menu.php:30
+msgid "Department Menu"
+msgstr ""
+
+#: widgets/citygovt-service-sidebar-menu.php:124
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: widgets/citygovt-service-sidebar-menu.php:138
+msgid "Select Menu:"
+msgstr ""
+
+#: widgets/citygovt-service-sidebar-menu.php:158
+msgid "Edit Menu"
+msgstr ""
+
+#: widgets/latest-posts.php:14
+msgid "Latest News"
+msgstr ""
+
+#: widgets/latest-posts.php:16
+msgid "Citygovt Latest News"
+msgstr ""
+
+#: widgets/latest-posts.php:40
+msgid "Number of posts:"
+msgstr ""

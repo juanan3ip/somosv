@@ -1,0 +1,189 @@
+.team-section-two {
+    position: relative;
+    padding: 210px 0px 70px;
+}
+.team-section-two .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
+
+.team-section-two .image-layer:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.team-section-two .sec-title {
+    margin-bottom: 30px;
+}
+
+.team-section-two .title-col {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.team-section-two .title-col .inner {
+    position: relative;
+    display: block;
+}
+
+.team-section-two .title-col .text {
+    font-size: 15px;
+    color: #e0e0e0;
+    margin-bottom: 40px;
+}
+
+.team-section-two .members-col {
+    position: relative;
+}
+
+.team-section-two .members-col .inner {
+    position: relative;
+    display: block;
+}
+
+.team-block-two {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.team-block-two .inner-box {
+    position: relative;
+    display: block;
+    padding-left: 160px;
+    min-height: 170px;
+}
+
+.team-block-two .image-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130px;
+    height: 170px;
+    display: block;
+    overflow: hidden;
+}
+
+.team-block-two .image,
+.team-block-two .image img {
+    display: block;
+    width: 100%;
+}
+
+.team-block-two .info {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.team-block-two .info h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.team-block-two .info h4 a {
+    color: #ffffff;
+}
+
+.team-block-two .info .designation {
+    font-size: 15px;
+    font-weight: 500;
+    color: #00aa55;
+}
+
+.team-block-two .share-it {
+    position: absolute;
+    left: 160px;
+    bottom: 0;
+    width: 38px;
+    height: 38px;
+    margin: 0 0;
+}
+
+.team-block-two .share-it .share-btn {
+    position: relative;
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 30px;
+    padding: 4px 0px;
+    color: #aaaaaa;
+    background: #2d2d2d;
+    text-align: center;
+    border-radius: 19px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.team-block-two .share-it .share-btn:hover {
+    color: #ffffff;
+    background: #00aa55;
+    border-color: #00aa55;
+}
+
+.team-block-two .share-it .share-list {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 38px;
+    width: 110px;
+    color: #aaaaaa;
+    background: #2d2d2d;
+    text-align: center;
+    border-radius: 19px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    z-index: 1;
+}
+
+.team-block-two .share-it:hover .share-list {
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-block-two .share-it .share-list li {
+    position: relative;
+    display: block;
+    float: left;
+    width: 36px;
+    padding: 4px 0px;
+    line-height: 30px;
+    border-right: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.team-block-two .share-it .share-list li:last-child {
+    border: none;
+}
+
+.team-block-two .share-it .share-list li a {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    line-height: 30px;
+    color: #999999;
+}
+
+.team-block-two .share-it .share-list li a:hover {
+    color: #00aa55;
+}

@@ -1,0 +1,95 @@
+.educatin_and_skills {
+    position: relative;
+}
+.educatin_and_skills .education_details,
+.educatin_and_skills .skills {
+    position: relative;
+    padding: 50px 0px 30px;
+}
+.educatin_and_skills .ed_title {
+    position: relative;
+    display: block;
+    padding-bottom: 7px;
+    font-weight: 700;
+    color: #222222;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.educatin_and_skills p.desription {
+    margin-bottom: 30px;
+}
+.educatin_and_skills .ed_title:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    border-bottom: 2px solid #00aa55;
+}
+.details_list {
+    position: relative;
+    margin-bottom: 30px;
+}
+.details_list h6 {
+    display: inline-block;
+    position: relative;
+    padding: 8px 15px 1px;
+    border: 1px solid #f1f1f1;
+    font-size: 16px;
+    color: #222;
+    line-height: 26px;
+    margin: 0px 0px 20px;
+    font-weight: 700;
+}
+.details_list h6::before {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 50px;
+    background: #f1f1f1;
+    left: -1px;
+    bottom: -36px;
+}
+.details_list h6::after {
+    position: absolute;
+    content: '';
+    width: 15px;
+    height: 1px;
+    background: #f1f1f1;
+    left: -1px;
+    bottom: -36px;
+}
+.details_list p {
+    margin-left: 30px;
+}
+.details_list {
+    align-self: flex-start;
+    padding: 0 15px;
+    width: 50%;
+}
+.educ_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill_bar {
+    position: relative;
+    margin-bottom: 30px;
+}
+.skill_bar .progress-bar {
+    background: #00aa55;
+    font-size: 9px;
+    border-radius: 10px;
+}
+.skill_bar .progress {
+    background: #f1f1f1;
+    height: 12px;
+    border-radius: 10px;
+}
+.skill_bar h2 {
+    font-size: 18px;
+    color: #222;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 10px;
+}

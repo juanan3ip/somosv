@@ -1,0 +1,209 @@
+/*** 
+
+====================================================================
+	FAQs Section
+====================================================================
+
+***/
+
+.faqs-section {
+    position: relative;
+    padding: 110px 0px 110px;
+    background: #ffffff;
+}
+
+.faqs-section .sec-title {
+    margin-bottom: 50px;
+}
+
+.faqs-section .tab-col {
+    position: relative;
+}
+
+.faqs-section .tab-col .inner {
+    position: relative;
+    display: block;
+}
+
+.tabs-box {
+    position: relative;
+}
+
+.tabs-box .tab-buttons {
+    position: relative;
+}
+
+.tabs-box .tab-buttons .tab-btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.tabs-box .tabs-content {
+    position: relative;
+}
+
+.tabs-box .tabs-content .tab {
+    position: relative;
+    display: none;
+}
+
+.tabs-box .tabs-content .active-tab {
+    display: block;
+}
+
+.faq-tabs {
+    position: relative;
+}
+
+.faq-tabs .tab-buttons {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-tabs .tab-buttons .tab-btn {
+    position: relative;
+    display: block;
+    padding: 30px 10px 25px;
+    text-align: center;
+    background: #f1f1f1;
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    font-family: 'Manjari', sans-serif;
+    border: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.faq-tabs .tab-buttons .tab-btn.active-btn {
+    background: none;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.faq-tabs .tab-buttons .tab-btn .icon {
+    position: relative;
+    display: block;
+    font-size: 42px;
+    line-height: 1em;
+    color: #00aa55;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+/*** 
+
+====================================================================
+	Accordion
+====================================================================
+
+ ***/
+
+ .accordion-box {
+    position: relative;
+}
+
+.accordion-box .block {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.accordion-box .block:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-box .block .acc-btn {
+    position: relative;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    cursor: pointer;
+    padding: 19px 50px 11px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    color: #222222;
+    background-color: #ffffff;
+    font-family: 'Manjari', sans-serif;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active {
+    color: #00aa55;
+    border-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.accordion-box .block:before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    bottom: 20px;
+    border-left: 2px solid #00aa55;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.accordion-box .block.active-block:before {
+    bottom: 5px;
+}
+
+.accordion-box .block .icon {
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #061138;
+    height: 30px;
+    line-height: 30px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active .icon:before {
+    content: "\f123";
+    color: #00aa55;
+}
+
+.accordion-box .block.active-block {
+    display: block;
+}
+
+.accordion-box .block .acc-content {
+    position: relative;
+    padding-left: 50px;
+    display: none;
+}
+
+.accordion-box .block .content {
+    position: relative;
+    padding: 28px 0px 0px;
+}
+
+.accordion-box .block.current .acc-content {
+    display: block;
+}
+
+.accordion-box .block .content .text {
+    position: relative;
+    display: block;
+    font-size: 15px;
+    line-height: 1.6em;
+}

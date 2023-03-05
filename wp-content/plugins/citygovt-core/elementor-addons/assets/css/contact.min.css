@@ -1,0 +1,196 @@
+/*** 
+
+====================================================================
+	Contact Section
+====================================================================
+
+***/
+
+.contact-section {
+    position: relative;
+    padding: 110px 0px 70px;
+    background: #ffffff;
+}
+
+.contact-section .sec-title {
+    margin-bottom: 40px;
+}
+
+.contact-section .left-col,
+.contact-section .right-col {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.contact-section .right-col .inner {
+    position: relative;
+    display: block;
+}
+
+.contact-section .left-col .inner-box {
+    position: relative;
+    display: block;
+}
+
+.contact-section .left-col .images {
+    position: relative;
+    margin-right: 210px;
+}
+
+.contact-section .left-col .image {
+    position: relative;
+    display: block;
+    margin-bottom: 25px;
+}
+
+.contact-section .left-col .image img {
+    display: block;
+    width: 100%;
+}
+
+.contact-section .left-col .image:last-child {
+    margin-left: 70px;
+    margin-bottom: 0;
+}
+
+.contact-section .form-box {
+    position: relative;
+}
+
+.contact-section .form-box .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section .form-box .form-group input,
+.contact-section .form-box .form-group textarea,
+.contact-section .form-box .form-group .ui-selectmenu-button.ui-button {
+    font-size: 14px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.contact-section .form-box .form-group textarea {
+    height: 140px;
+}
+
+.contact-section .form-box button {
+    display: block;
+    width: 100%;
+}
+
+.contact-section .form-box button .btn-title {
+    padding: 11px 20px 8px;
+}
+
+.map-section {
+    position: relative;
+}
+
+.map-data {
+    text-align: center;
+    font-size: 15px;
+    color: #7f8a99;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+
+.map-data h6 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #061138;
+}
+
+.map-canvas {
+    height: 500px;
+}
+
+.contact-info-box {
+    position: relative;
+}
+
+.contact-section .left-col .contact-info-box {
+    position: absolute;
+    right: 30px;
+    top: 60px;
+    width: 300px;
+    background: #ffffff;
+}
+
+.contact-info-box .inner {
+    position: relative;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.contact-info-box .info-header {
+    position: relative;
+    padding: 20px 30px 15px;
+    background: #00aa55;
+    color: #ffffff;
+}
+
+.contact-info-box .info-header h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.contact-info-box .info {
+    position: relative;
+    padding: 10px 30px;
+    background: #ffffff;
+}
+
+.contact-info-box .info li {
+    position: relative;
+    padding: 30px 0px 25px;
+    line-height: 24px;
+    font-size: 15px;
+    color: #757575;
+    font-family: 'Manjari', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.contact-info-box .info li .content {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-left: 62px;
+    min-height: 60px;
+}
+
+.contact-info-box .info li a {
+    color: #757575;
+}
+
+.contact-info-box .info li a:hover {
+    text-decoration: underline;
+    color: #00aa55;
+}
+
+.contact-info-box .info li:last-child {
+    border-bottom: 0;
+}
+
+.contact-info-box .info li strong {
+    display: block;
+    position: relative;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact-info-box .info li .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    line-height: 60px;
+    font-size: 40px;
+    color: #00aa55;
+}
+
+.contact-info-box .info h4 {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

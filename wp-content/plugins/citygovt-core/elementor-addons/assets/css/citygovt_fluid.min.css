@@ -1,0 +1,116 @@
+/*** 
+
+====================================================================
+	Fluid Section
+====================================================================
+
+***/
+
+.fluid-section {
+    position: relative;
+    padding: 0;
+}
+
+.fluid-section .top-icon-box {
+    position: absolute;
+    left: 50%;
+    margin-left: -65px;
+    top: -65px;
+    width: 130px;
+    height: 130px;
+    font-size: 60px;
+    line-height: 140px;
+    background: #f1f1f1;
+    color: #00aa55;
+    text-align: center;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.alternate-icon .top-icon-box {
+    background: #ffffff;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.fluid-section .row {
+    margin: 0;
+}
+
+.fluid-section .column {
+    position: relative;
+    padding: 0;
+    color: #ffffff;
+}
+
+.fluid-section .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.fluid-section .image-layer:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.0);
+}
+
+.fluid-section .column:nth-child(2) .image-layer:before {
+    background: #00aa55;
+    opacity: 0.90;
+}
+
+.fluid-section .column .inner {
+    position: relative;
+    float: right;
+    width: 100%;
+    max-width: 600px;
+    padding-right: 100px;
+}
+
+.fluid-section .column:nth-child(2) .inner {
+    float: left;
+    padding-right: 0;
+    padding-left: 100px;
+}
+
+.fluid-section .column .content {
+    position: relative;
+    display: block;
+    padding: 110px 15px 100px;
+}
+
+.fluid-section .column .upper-title {
+    position: relative;
+    display: block;
+    padding: 12px 0 0 84px;
+    min-height: 60px;
+    margin-bottom: 35px;
+}
+
+.fluid-section .column .icon-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 60px;
+    line-height: 1em;
+}
+
+.fluid-section .column .upper-title h4 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.fluid-section .column .upper-title h2 {
+    font-weight: 700;
+    margin: 0;
+}

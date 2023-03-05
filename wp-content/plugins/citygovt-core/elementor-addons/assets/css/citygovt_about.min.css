@@ -1,0 +1,239 @@
+/*** 
+
+====================================================================
+	About Section
+====================================================================
+
+***/
+
+.about-section {
+    position: relative;
+    padding: 110px 0px;
+    background: #161616;
+    color: #a7a7a7;
+}
+
+.about-section .sec-title {
+    margin-bottom: 50px;
+}
+
+.about-section .content-box {
+    position: relative;
+}
+
+.about-section .content {
+    position: relative;
+    max-width: 670px;
+}
+
+.about-section .image-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+
+.about-section .pattern-layer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.about-section .content_box .image_box {
+    float: left;
+    position: relative;
+    margin-top: 8px;
+}
+.about-section .content_box .image_box .icon-box {
+    position: absolute;
+    top: 33%;
+    left: 29%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    display: block;
+    text-align: center;
+    background: rgba(0, 175, 85, .9);
+    border-radius: 50px;
+}
+.about-section .content_box .image_box .icon-box span {
+    font-size: 15px;
+    color: #fff;
+}
+.about-section .content_box .text_box {
+    position: relative;
+    margin-left: 158px;
+}
+.about-section .content_box .text {
+    margin-bottom: 20px;
+}
+.about-section .content_box {
+    position: relative;
+    padding-bottom: 20px;
+}
+.about-section .upper-text {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+.about-section .upper-text .big-letter {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    background: #00aa55;
+    float: left;
+    font-family: 'Manjari', sans-serif;
+    font-size: 60px;
+    width: 72px;
+    height: 72px;
+    font-weight: 700;
+    line-height: 72px;
+    padding-top: 12px;
+    text-align: center;
+    margin: 0px 30px 10px 0px;
+}
+
+.about-section .text {
+    position: relative;
+    margin-bottom: 45px;
+    line-height: 1.6em;
+}
+
+.about-section .signature {
+    position: relative;
+}
+.about-section .signature img {
+    width: 150px;
+}
+
+.about-section .authour_box .left_float {
+    float: left;
+    position: relative;
+    margin-right: 40px;
+}
+.about-section .info {
+    position: relative;
+    font-size: 15px;
+    color: #a7a7a7;
+    line-height: 1.5em;
+}
+
+.about-section .info .name {
+    position: relative;
+    font-family: 'Manjari', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.about-section .quote-box {
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    width: 60px;
+    height: 60px;
+}
+
+.about-section .quote-box .round-point {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    background: #00aa55;
+    color: #ffffff;
+    font-weight: 300;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.about-section .quote-box .round-point:before {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: -8px;
+    right: -8px;
+    bottom: -8px;
+    background: #00aa55;
+    opacity: 0.30;
+    border-radius: 50%;
+}
+
+.about-section .quote-box .inner {
+    position: absolute;
+    right: 0px;
+    bottom: 100%;
+    margin-bottom: 60px;
+    width: 350px;
+    padding: 35px 30px 30px;
+    line-height: 24px;
+    color: #ffffff;
+    background: #00aa55;
+    -ms-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05), 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05), 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.about-section .quote-box .inner:before {
+    content: '';
+    position: absolute;
+    right: 30px;
+    top: 100%;
+    border: 20px solid transparent;
+    border-top: 20px solid #00aa55;
+    border-right: 20px solid #00aa55;
+}
+
+.about-section .quote-box:hover .inner {
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+}
+
+.about-section .quote-box .icon-one {
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    line-height: 1em;
+    font-size: 224px;
+    color: rgba(0, 0, 0, 0.07);
+}
+
+.about-section .quote-box .icon-two {
+    position: relative;
+    line-height: 1em;
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.about-section .quote-box .text {
+    position: relative;
+    font-family: 'Manjari', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin: 0;
+}
